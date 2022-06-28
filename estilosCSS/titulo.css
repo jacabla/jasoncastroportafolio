@@ -1,0 +1,43 @@
+
+.title__profile{
+    display: flex;
+    align-items: flex-end;
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.title__network__item{
+    padding-right: 100px;
+}
+
+.title{
+    display: flex;
+    margin: 0 153px;
+    width: 80%;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 150px;
+}
+
+.title__bio{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.title__subsection{
+    font-size: 30px;
+}

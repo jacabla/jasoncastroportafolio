@@ -1,0 +1,44 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0 153px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+.menu__list{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px; 
+
+}
+.icono{
+    width: 24px;
+    height: 24px;
+    padding-right: 1rem;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu__list :nth-child(6){
+    font-weight: 800;
+}
+
+/*
+padding 62px 153 px para las secciones paara que queden alineados a la izquierda
+/*

@@ -1,0 +1,103 @@
+.formcontato{
+    display: flex;
+    margin: 0 153px;
+    justify-content: space-between;
+}
+
+.formcontato__contacto{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    width: 650x;
+    margin-right: 75px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formcontato__input{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.formcontato__textarea{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem; 
+    border: 1px solid gray;  
+}
+
+.formcontato__botao{
+    height: 30px;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    justify-items: center;
+}
+
+.formcontato__botao:hover{
+    height: 30px;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    justify-items: center;
+    animation: mymove 3s;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 30px;}
+}
+
+.formcontato__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.formcontato__whatsapp{
+    width: 80px;
+    height: 80px;
+}
+
+.formcontato__parrafo{
+    height: 30px;
+    padding-left: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.formcontato__img{
+    width: 500px;
+    height: 240px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.formcontato--esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.formcontato__text__mensaje{
+    color: rgb(143, 34, 34);
+    font-style: italic;
+    padding-left: 40px;
+}

@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.card{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    margin: 0.5rem;
+    text-align: center;
+    line-height: 8rem;
+    color: #ecf0f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.8rem;
+    transform-style: preserve-3d;
+}
+
+.face{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.5s ease-in-out;
+}
+
+.face--back{
+    background: #ffffff;
+    color: gray;
+    font-size: 1.5rem;    
+    backface-visibility: hidden;
+
+}
+
+.face--frontG{
+    background: url(/assets/github.jpeg);
+    background-repeat: no-repeat;
+    font-size: 1.5rem; 
+    background-position: center;
+    background-size: calc(90%);
+}
+
+.face--frontL{
+    background: url(/assets/linkedin.jpeg);
+    background-repeat: no-repeat;
+    font-size: 1.5rem; 
+    background-position: center;
+    background-size: calc(90%);
+}
+
+.face--frontI{
+    background: url(/assets/instagram.jpeg);
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+    background-position: center;
+    background-size: calc(90%);
+}
+.face--frontY{
+    background: url(/assets/youtube.jpeg);
+    background-repeat: no-repeat;
+    font-size: 1.5rem; 
+    background-position: center;
+    background-size: calc(90%);
+}
+.face--frontT{
+    background: url(/assets/twitter.jpeg);
+    background-repeat: no-repeat;
+    transition-delay: 0.5s;
+    font-size: 1.5rem; 
+    background-position: center;
+    background-size: calc(90%);
+}
+
+.card:hover .face--back{
+    transform: rotateX(-180deg);
+    background-color: #ffffff;
+    transition: 0s;
+}
+
+.card:hover .face--front{
+    transform: rotateX(0deg);
+    background-color: #ffffff;
+    transition: 1s;
+}

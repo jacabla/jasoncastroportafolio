@@ -1,0 +1,14 @@
+.firma{
+    width: 150px;
+    height: 150px;
+}
+
+.about{
+    display: flex;
+    margin: 0 153px;
+    width: 80%;
+}
+
+.about__paragraph{
+    text-align: justify;
+}
